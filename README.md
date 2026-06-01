@@ -44,7 +44,8 @@ A modern and interactive Placement Preparation Portal built using **HTML, CSS, a
 
 ### Landing Page
 
-(<127.0.0.1_5500_index.html(Galaxy Z Fold 5).png>)
+<img width="1181" height="12996" alt="landing-page" src="https://github.com/user-attachments/assets/c73214db-ac89-479e-a27d-3cf10acb1d48" />
+
 
 ### Login Page
 (<Screenshot (275).png>)
