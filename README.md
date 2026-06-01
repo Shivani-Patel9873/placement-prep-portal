@@ -48,12 +48,16 @@ A modern and interactive Placement Preparation Portal built using **HTML, CSS, a
 
 
 ### Login Page
-(<Screenshot (275).png>)
+<img width="1920" height="1080" alt="Screenshot (275)" src="https://github.com/user-attachments/assets/988d3943-58b1-4f60-8e5e-600cb851aeee" />
+
 
 ### Dashboard
 
-(<Screenshot (276).png>)
-(<Screenshot (277).png>)
+<img width="1920" height="1080" alt="Screenshot (276)" src="https://github.com/user-attachments/assets/fb9c109e-7a89-4675-9f91-bda057e63215" />
+
+<img width="1920" height="1080" alt="Screenshot (277)" src="https://github.com/user-attachments/assets/ba2f5f2d-d8f6-4592-8b2c-dc1542a59731" />
+
+
 
 ## 📂 Project Structure
 
