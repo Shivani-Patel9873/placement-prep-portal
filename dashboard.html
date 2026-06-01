@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <div class="dashboard-sidebar">
+        <h2>PrepPortal</h2>
+
+        <ul>
+            <li><i class="fa-solid fa-house"></i> Dashboard</li>
+            <li><i class="fa-solid fa-code"></i> DSA Tracker</li>
+            <li><i class="fa-solid fa-brain"></i> Aptitude</li>
+            <li><i class="fa-solid fa-file"></i> Resume</li>
+            <li><i class="fa-solid fa-comments"></i> Interviews</li>
+            <li><i class="fa-solid fa-gear"></i> Settings</li>
+        </ul>
+    </div>
+
+    <div class="dashboard-main">
+
+        <div class="dashboard-header">
+            <h1 id="welcomeText">Welcome👋</h1>
+            <button class="primary-btn">Start Today's Plan</button>
+        </div>
+
+        <div class="profile-card">
+            <img src="./assets/profile.jpg" alt="Profile">
+
+            <div>
+                <h3 id="profileName">User Name</h3>
+                <p>B.Tech CSE | 2027 Batch</p>
+                <p>Placement Readiness: 82%</p>
+
+                <div class="profile-progress">
+                    <div class="profile-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-banner">
+    <div>
+        <h2>Placement Season 2027 🚀</h2>
+        <p>Stay consistent. Complete your goals every day.</p>
+    </div>
+
+    <button class="primary-btn">
+        View Roadmap
+    </button>
+    <button id="logoutBtn" class="primary-btn">
+    Logout
+</button>
+</div>
+        <div class="quick-stats">
+            <div class="mini-card">
+                <h4>Problems Solved</h4>
+                <h2>245</h2>
+            </div>
+
+            <div class="mini-card">
+                <h4>Mock Tests</h4>
+                <h2>18</h2>
+            </div>
+
+            <div class="mini-card">
+                <h4>Applications</h4>
+                <h2>12</h2>
+            </div>
+
+            <div class="mini-card">
+                <h4>Study Hours</h4>
+                <h2>156</h2>
+            </div>
+        </div>
+
+        <div class="dashboard-cards">
+
+            <div class="dash-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>DSA Progress</h3>
+                <h2>75%</h2>
+
+                <div class="progress-line">
+                    <div class="progress-fill" style="width:75%"></div>
+                </div>
+            </div>
+
+            <div class="dash-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Aptitude</h3>
+                <h2>60%</h2>
+
+                <div class="progress-line">
+                    <div class="progress-fill" style="width:60%"></div>
+                </div>
+            </div>
+
+            <div class="dash-card">
+                <i class="fa-solid fa-comments"></i>
+                <h3>Interview Prep</h3>
+                <h2>45%</h2>
+
+                <div class="progress-line">
+                    <div class="progress-fill" style="width:45%"></div>
+                </div>
+            </div>
+
+            <div class="dash-card">
+                <i class="fa-solid fa-bullseye"></i>
+                <h3>Daily Goals</h3>
+                <h2>3 / 5</h2>
+
+                <div class="progress-line">
+                    <div class="progress-fill" style="width:60%"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dashboard-grid">
+
+            <div class="goal-section">
+                <h2>Today's Tasks</h2>
+
+                <div class="task">
+                    <input type="checkbox"> Solve 5 DSA Questions
+                </div>
+                <p class="task-status">
+                    3 of 5 tasks completed today
+                </p>
+
+                <div class="task">
+                    <input type="checkbox"> Practice Aptitude
+                </div>
+
+                <div class="task">
+                    <input type="checkbox"> Revise DBMS
+                </div>
+
+                <div class="task">
+                    <input type="checkbox"> Update Resume
+                </div>
+            </div>
+
+            <div class="notes-section">
+                <h2>Quick Notes</h2>
+
+                <textarea placeholder="Write interview notes, revision points, company details..."></textarea>
+            </div>
+
+            <div class="pomodoro">
+                <h2>Pomodoro Timer</h2>
+
+                <h1 id="timer">25:00</h1>
+
+                <button onclick="startTimer()" class="primary-btn">
+                    Start Session
+                </button>
+            </div>
+
+            <div class="chart-section">
+                <h2>Weekly Progress</h2>
+
+                <div class="chart-bars">
+
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:70%"></div>
+                        <span>Mon</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:85%"></div>
+                        <span>Tue</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:60%"></div>
+                        <span>Wed</span>
+                    </div>
+
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:90%"></div>
+                        <span>Thu</span>
+                    </div>
+
+                    
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:75%"></div>
+                        <span>Fri</span>
+                    </div>
+
+
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:75%"></div>
+                        <span>Sat</span>
+                    </div>
+
+
+                    <div class="bar-item">
+                        <div class="chart-bar" style="height:75%"></div>
+                        <span>Sun</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dashboard-footer">
+            <p>Placement Prep Portal • Built by Shivani Patel</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
