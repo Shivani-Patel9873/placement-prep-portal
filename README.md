@@ -2,6 +2,11 @@
 
 A modern and interactive Placement Preparation Portal built using **HTML, CSS, and JavaScript** to help students organize and track their placement journey efficiently.
 
+## 🌐 Live Demo
+
+🔗 https://placement-prep-portal-phi.vercel.app
+
+
 ## 🌟 Features
 
 ### 🔐 User Authentication
