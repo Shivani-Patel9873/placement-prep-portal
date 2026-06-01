@@ -40,6 +40,7 @@ A modern and interactive Placement Preparation Portal built using **HTML, CSS, a
 * Local Storage
 * Font Awesome
 
+
 ## 📸 Screenshots
 
 ### Landing Page
@@ -61,7 +62,7 @@ A modern and interactive Placement Preparation Portal built using **HTML, CSS, a
 
 ## 📂 Project Structure
 
-```text
+
 Placement-Prep-Portal/
 │
 ├── index.html
@@ -71,7 +72,6 @@ Placement-Prep-Portal/
 ├── style.css
 ├── script.js
 └── README.md
-```
 
 ## 🎯 Future Enhancements
 
